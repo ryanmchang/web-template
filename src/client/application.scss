@@ -1,3 +1,8 @@
-/*Top level scss file. Import all other files into here*/
+/*Top level scss file. Import all other files into here
+Need to add all styling (ex. component scss files) here
+*/
 
-@import "app.scss"
+@import "app.scss";
+
+@import "./screens/Home/home.scss";
+@import "./screens/ScheduleSetup/schedule-setup.scss";
